@@ -1,0 +1,57 @@
+body{
+  background-color:#BFFCFC;
+  text-align:center;
+  font-family:Lucida Console;
+  color:#6D2EAD;
+}
+
+#introHead{
+  border-top-style:double;
+  border-bottom-style:double;
+  border-right-style: solid;
+  border-left-style:solid;
+  border-color:#6D2EAD;
+  border-width:10px;
+  border-radius:10px;
+  
+  font-family:Courier New;
+  
+  background-color:LightSkyBlue;
+  
+  text-align:center;
+    color:BlueViolet;
+  
+}
+
+table,th,td{
+  background-color:LightSkyBlue;
+  border-style:solid;
+  border-color:BlueViolet;
+  border-width:5px;
+  border-collapse:collapse;
+  
+  color:BlueViolet;
+  padding:10px;
+  text-align:left;
+  
+  margin:auto;
+}
+
+
+.commonStuff{
+  border-top-style:double;
+  border-bottom-style:double;
+  border-right-style: solid;
+  border-left-style:solid;
+  border-color:BlueViolet;
+  border-width:5px;
+  border-radius:5px;
+  background-color:LightSkyBlue;
+  color:BlueViolet;
+  text-align:left;
+  margin:auto;
+}
+
+#places{
+  text-align:center;
+}
