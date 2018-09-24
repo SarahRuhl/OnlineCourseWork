@@ -1,0 +1,15 @@
+#can{
+  background-color:aqua;
+  border:1px solid;
+  width:400px;
+  height:200px;
+}
+
+body{
+  font-family:"Apple Chancery";
+  background-color:lightblue;
+}
+
+#upperTitle{
+  color:darkBlue;
+}
