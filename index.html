@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Interesting Things about Sarah</title>
+  <title>GreenScreen Project</title>
   
   
   
@@ -14,95 +14,31 @@
 
 <body>
 
-  <html>
-  <div id=introHead>
-    <h1>Interesting Things About Sarah</h1>
-    <h2>What are does she like? Where has she been? Why is she a pretenious snot?</h2> 
-    <h3> Maybe you'll find out!</h3>
-    </div>
-  <body>
-    <h2>Movies!</h2>
-    <div class=commonStuff>
-      <h3>My top favorite movies/series incuded:</h3>
-    </div>
-    <div class=commonStuff>
-      <p><ul>
-      <li><em><a href=https://en.wikipedia.org/wiki/Kubo_and_the_Two_Strings> Kubo and the Two Strings</a></em></li>
-        <li><em><a href=https://en.wikipedia.org/wiki/Star_Wars> Star Wars</a></em></li>
-        <li> <em><a href=https://en.wikipedia.org/wiki/Big_Hero_6_(film)> Big Hero 6</a></em></li>
-        <li><em><a href=https://en.wikipedia.org/wiki/Ready_Player_One_(film)> Ready Player One</a></em></li>
-      </ul></p>
-    </div>
-     <div>
-       <p><h3 class=commonStuff>My top <b>least favorite movies <em>(that I've seen)</em> </b>incuded:</h3></p>
-       <table>
-         <tr>
-           <b>
-           <th>Movie</th>
-           <th>Reasons</th>
-           </b>
-         </tr>
-         <tr>
-           <td><em>The Shining</em></td>
-           <td>
-            <ul>
-              <li>I didn't find it scary</li>
-              <li>The editing was too choppy</li>
-              <li>There was little character development</li>
-             </ul>
-           </td>
-         </tr>
-         <tr>
-           <td><em>Rogue One</em></td>
-           <td>
-             <ul>
-               <li>Didn't respect established canon</li>
-               <li>Half of the main characters are cardboard cut outs</li>
-               <li>Comedy stops at the one third mark removing some much needed balance</li>
-               <li>Sloppy editing at the beginning</li>
-             </ul>
-           </td>
-         </tr>
-       </table>
-    </div>
-    <h2>Places!</h2>
-      <div class=commonStuff>
-      <h3>I have been to:</h3>
-        <ul>
-      <li> France</li>
-      <li> Italy</li>
-      <li> England</li>
-      <li> Japan (Twice)</li>
-        </ul>
-    </div>
-    <div class=commonStuff id=places>
-      <h3>Favorite Places:</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Sleepingbeautycastle50.jpg" id=disneyImg >
-      <ol>
-      <li>Disneyland </li>
-      <li>Mt. Fuji</li>
-      <li>The Louve</li>
-       <ol>
-    </div>
-     <h2>Hobbies!</h2>
-      <div class=commonStuff>
-      <h3>My hobbies include:</h3>
-      <p> Writing novels</p>
-      <p> Drawing</p>
-      <p> Debating the underlying depth of animated shows</p>
-    </div>
-    
-      <h2>Fun Facts!</h2>
-       <div class=commonStuff>
-      <p>In addision to writing novels, I also write <a href="https://www.fanfiction.net/u/2923893/">fanfiction</a> online.</p>
-      <p>My favorite animal is the cheetah.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Cheetah_%28Acinonyx_jubatus%29_female_2.jpg" width= "500px">
-      
-    </div>
-  </body>
-</html>
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<h1>Green Sreen Website Challenge</h1>
+
+<canvas id="fg" class="can"></canvas>
+<canvas id="bg" class="can"></canvas>
+
+<p> Foreground Image:
+<input type="file" multiple="false" accept="image/*" id="fgload" onchange=loadForeground()>
+</p>
+
+<p>Background Image:
+ <input type="file" multiple="false" accept="image/*" id="bgload" onchange=loadBackground()> 
+</p>
+<p>
+  <input type="button" value="Create Composite" id="together" onclick="greenScreen()">
+  
+  <input type="button" value="Clear Canvas" id="clear" onclick="reset()">
+</p>
   
   
+
+    <script  src="js/index.js"></script>
+
+
+
 
 </body>
 
